@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-08-17T23:19:14 GMT+05:30" name="Suite" finished-at="2021-08-17T23:20:09 GMT+05:30" duration-ms="54575">
+    <groups>
+    </groups>
+    <test started-at="2021-08-17T23:19:14 GMT+05:30" name="Case3" finished-at="2021-08-17T23:19:56 GMT+05:30" duration-ms="41144">
+      <class name="TestCases.Case3Success">
+        <test-method is-config="true" signature="ini()[pri:0, instance:TestCases.Case3Success@9cb8225]" started-at="2021-08-17T23:19:15 GMT+05:30" name="ini" finished-at="2021-08-17T23:19:32 GMT+05:30" duration-ms="17607" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method signature="Success()[pri:0, instance:TestCases.Case3Success@9cb8225]" started-at="2021-08-17T23:19:32 GMT+05:30" name="Success" finished-at="2021-08-17T23:19:51 GMT+05:30" duration-ms="18227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Success -->
+        <test-method is-config="true" signature="end()[pri:0, instance:TestCases.Case3Success@9cb8225]" started-at="2021-08-17T23:19:51 GMT+05:30" name="end" finished-at="2021-08-17T23:19:56 GMT+05:30" duration-ms="5051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestCases.Case3Success -->
+    </test> <!-- Case3 -->
+    <test started-at="2021-08-17T23:19:14 GMT+05:30" name="Case2" finished-at="2021-08-17T23:20:00 GMT+05:30" duration-ms="45243">
+      <class name="TestCases.Case2Title">
+        <test-method is-config="true" signature="ini()[pri:0, instance:TestCases.Case2Title@34625ccd]" started-at="2021-08-17T23:19:15 GMT+05:30" name="ini" finished-at="2021-08-17T23:19:32 GMT+05:30" duration-ms="17611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method signature="FeaturedCourse()[pri:0, instance:TestCases.Case2Title@34625ccd]" started-at="2021-08-17T23:19:32 GMT+05:30" name="FeaturedCourse" finished-at="2021-08-17T23:19:51 GMT+05:30" duration-ms="18226" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [FEATURED123COURSES] but found [FEATURED COURSES]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [FEATURED123COURSES] but found [FEATURED COURSES]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at org.testng.Assert.assertEquals(Assert.java:639)
+at TestCases.Case2Title.FeaturedCourse(Case2Title.java:30)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:78)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+at java.base/java.lang.Thread.run(Thread.java:831)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FeaturedCourse -->
+        <test-method is-config="true" signature="end()[pri:0, instance:TestCases.Case2Title@34625ccd]" started-at="2021-08-17T23:19:56 GMT+05:30" name="end" finished-at="2021-08-17T23:20:00 GMT+05:30" duration-ms="3468" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestCases.Case2Title -->
+    </test> <!-- Case2 -->
+    <test started-at="2021-08-17T23:19:14 GMT+05:30" name="Case1" finished-at="2021-08-17T23:20:09 GMT+05:30" duration-ms="54575">
+      <class name="TestCases.Case1">
+        <test-method is-config="true" signature="ini()[pri:0, instance:TestCases.Case1@5860f3d7]" started-at="2021-08-17T23:19:14 GMT+05:30" name="ini" finished-at="2021-08-17T23:19:55 GMT+05:30" duration-ms="40197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ini -->
+        <test-method signature="Data(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Case1@5860f3d7]" started-at="2021-08-17T23:19:55 GMT+05:30" name="Data" data-provider="getData" finished-at="2021-08-17T23:20:04 GMT+05:30" duration-ms="9460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Data -->
+        <test-method signature="Data(java.lang.String,java.lang.String)[pri:0, instance:TestCases.Case1@5860f3d7]" started-at="2021-08-17T23:20:04 GMT+05:30" name="Data" data-provider="getData" finished-at="2021-08-17T23:20:08 GMT+05:30" duration-ms="4282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[45678]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Data -->
+        <test-method is-config="true" signature="end()[pri:0, instance:TestCases.Case1@5860f3d7]" started-at="2021-08-17T23:20:08 GMT+05:30" name="end" finished-at="2021-08-17T23:20:09 GMT+05:30" duration-ms="603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- end -->
+      </class> <!-- TestCases.Case1 -->
+    </test> <!-- Case1 -->
+  </suite> <!-- Suite -->
+</testng-results>

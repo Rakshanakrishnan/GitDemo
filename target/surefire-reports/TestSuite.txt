@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 160.506 s <<< FAILURE! - in TestSuite
+TestCases.Case2Title.FeaturedCourse  Time elapsed: 15.607 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED123COURSES] but found [FEATURED COURSES]
+	at TestCases.Case2Title.FeaturedCourse(Case2Title.java:30)
+
+TestCases.Case1.Data[abc@gmail.com, 12345](1)  Time elapsed: 20.344 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+Element <span> is not clickable at point (1335.6167297363281,16.133331298828125) because another element <div class="listbuilder-popup-content"> obscures it
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAKSHANA_RADHAK', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 64.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 5408, moz:profile: C:\Users\Admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, rotatable: false, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 1db470e3-808f-4569-ad4d-8b2ea861518b
+	at TestCases.Case1.Data(Case1.java:36)
+

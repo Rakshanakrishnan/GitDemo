@@ -1,0 +1,4 @@
+PageObjects\Firstpage.class
+PageObjects\LoginPage.class
+PageObjects\ResetPwdPage.class
+Components\HomePage.class
